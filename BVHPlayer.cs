@@ -27,7 +27,8 @@ public class BVHPlayer : MonoBehaviour
     {
         if (playOnStart)
         {
-            Play("C:/Users/xuan/xuan/MRAgent/Assets/MRTourist/test_files/2_scott_0_2_2.bvh");
+            // Play(bvhFilePath);
+            Play();
             playOnStart = false;
         }
         if (stopAnimation)
